@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "269098561422",
+    "firebase_url": "https://studentrecordkeep.firebaseio.com",
+    "project_id": "studentrecordkeep",
+    "storage_bucket": "studentrecordkeep.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269098561422:android:65c05659d09d8cdd",
+        "android_client_info": {
+          "package_name": "com.example.studentrecordkeep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269098561422-a1v46bt95eegan39lf09ir3ukq00vppa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studentrecordkeep",
+            "certificate_hash": "37ad5ae5a8fccba350dc4f51cebfaf605f923870"
+          }
+        },
+        {
+          "client_id": "269098561422-upjc5faudk2qlrh2p5dqbjudlqdgcjbo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAcm0BpI-tMxByQv4_EjRAFcc3YwBpvwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269098561422-upjc5faudk2qlrh2p5dqbjudlqdgcjbo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:padding="4dp"
+                android:text="Name :"
+                android:textColor="@color/colorBack"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/stud_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:padding="4dp"
+                android:text="sonu kumar"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBack"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Department: "
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/stud_branch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="CSe"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Semester: "
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/stud_sem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="6th"
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Registration: "
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/stud_RegNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="1123"
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Year: "
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/stud_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="4"
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Email: "
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/stud_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="6th"
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Block Name: "
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/stud_block_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="A"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Room Number: "
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/stud_room_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="202"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="Invigilator Name : "
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/staff_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:text="sonu"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBack"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/errorDataInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Sorry NO Data found relate to this quarry !!"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBack"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Seat Alot</string>
+
+    <string-array name="planets_array">
+        <item>\tCSE</item>
+        <item>\tIT</item>
+        <item>\tECE</item>
+        <item>\tEEE</item>
+        <item>\tCE</item>
+        <item>\tME</item>
+    </string-array>
+
+
+    <string name="deleteRecords">This action <b>cannot</b> be undone. This will permanently delete and remove all collaborator associations. </string>
+    <string name="deleteName">Please type the name ( <b>studentrecordkeep</b> ) to confirm.</string>
+</resources>

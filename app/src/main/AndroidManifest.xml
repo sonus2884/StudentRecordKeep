@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentrecordkeep">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.EditStaffIDActivity"></activity>
+        <activity android:name=".Admin.ClearRecordsActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Student.ShowStudentActivity" />
+        <activity android:name=".Student.StudentSearchActivity" />
+        <activity android:name=".Admin.SeatingArrangActivity" />
+        <activity android:name=".Admin.ViewExamHallActivity" />
+        <activity android:name=".Admin.SearchExamHallActivity" />
+        <activity android:name=".Admin.AddExamHallActivity" />
+        <activity android:name=".Admin.SearchStaffActivity" />
+        <activity android:name=".Admin.SearchStudentActivity" />
+        <activity android:name=".Admin.ViewStaffActivity" />
+        <activity android:name=".Admin.AddStaffActivity" />
+        <activity android:name=".Admin.ViewStudentsActivity" />
+        <activity android:name=".Admin.AddStudentActivity" />
+        <activity android:name=".Admin.AdminLoginActivity" />
+        <activity android:name=".Admin.AdminMainActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
